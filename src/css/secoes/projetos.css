@@ -1,4 +1,3 @@
-/* PROJETOS */
 .projetos .container-projetos {
     display: grid;        
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -10,6 +9,10 @@
     .projetos .container-projetos {
         padding: 0 var(--mobile-padding);
     }
+}
+
+.projetos .section-title h2 {
+    padding-bottom: 60px;
 }
 
 .projetos .container-projetos .projeto {
